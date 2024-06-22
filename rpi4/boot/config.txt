@@ -43,3 +43,8 @@ dtoverlay=dwc2,dr_mode=peripheral
 [cm4]
 dtoverlay=dwc2,dr_mode=otg
 [all]
+
+# Force enabling 2 HDMIs
+hdmi_force_hotplug:0=1
+hdmi_force_hotplug:1=1
+hdmi_drive=2
